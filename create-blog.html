@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Blog - My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2 class="logo">My Blog</h2>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="create-blog.html">Create Blog</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- Create Blog Form -->
+    <div class="form-container" style="max-width: 600px;">
+        <h2>Write a New Blog</h2>
+        <form>
+            <input type="text" placeholder="Blog ka Title likhein" required>
+
+            <!-- Blog ki detail likhne ke liye bada box -->
+            <textarea placeholder="Apne blog ki tafseel yahan likhein..." rows="6"
+                style="padding: 12px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; resize: vertical;"
+                required></textarea>
+
+            <input type="text" placeholder="Image URL (tasveer ka link dalen)">
+
+            <button type="submit" class="btn">Publish Blog</button>
+        </form>
+    </div>
+</body>
+
+</html>
